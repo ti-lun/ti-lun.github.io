@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>katie bui</title>
+
+
+    <link href="../lib/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="../lib/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <link rel="stylesheet" type="text/css" href="../lib/style.css">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono" rel="stylesheet">
+
+  <body>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="../lib/jquery.easing.1.3.js"></script>
+
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+    <script>
+    $(function() {
+    $('#finger').bind('click', function(event) {
+        $('html, body').stop().animate({
+            scrollTop: $('#main').offset().top
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
+});
+    </script>
+    <div class="first-page">
+      <img class="img-responsive fp" src="../lib/images/Untitled-2.png" width="150px"><br />
+      <h1>Hey, I'm Katie.</h1>
+      <h2 class="subtitle">web dev · AI researcher · leader · artist</h2>
+      <a class="page-scroll" href="#"><img class="img-responsive fp finger" id="finger" src="../lib/images/pointing-down.png" width="50px"></a>
+    </div>
+
+    <div class="container main page-scroll" id="main">
+      <div class="row blocker">
+        <div class="col-md-5"><h2 class="red">about me</h2>
+          <p>
+          To me, almost everything is an art.  I grew up in a household where I passed the time
+          with working with my hands: drawing, composing and performing music, writing, cooking, you name it.  Even
+          computer "science" feels like art to me, as there are ways to express my love for
+          craft and perfection in its framework of code.
+          </p>
+
+          <p>
+            I'm attending University of California, Irvine as a computer science major.  To be
+            honest, it had been a journey to find computer science as the thing that I really wanted to do.
+            I wanted to pursue biology and playing the French horn at first!  But I'm more than grateful
+            that I've fallen in love with the computing community.
+          </p>
+        </div>
+      <div class="col-md-2"></div>
+      <div class="col-md-4"><img src="../lib/images/portrait.png" class="img-responsive"></div>
+      </div>
+
+
+      <div class="row blocker">
+        <div class="col-md-3 ">
+          <img src="../lib/images/flint.png" class="img-responsive img-circle" width="200px"> <br />
+          <img src="../lib/images/meridian2.png" class="img-responsive img-circle" width="200px"> <br />
+          <img src="../lib/images/tedx.png" class="img-responsive img-circle" width="200px"> <br />
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-8"><h2 class="yellow">work experience</h3>
+          <h3>tech</h3>
+          <p>
+            Currently I'm working in research in artificial intelligence with Alexander Ihler at
+            UC Irvine, and I'm super excited!  I am to develop a backtracking heuristic algorithm for the
+            next two quarters of school.
+          </p>
+          <p>
+            During last spring I worked at <em>Flint Rehabilitation</em>, a local startup, as a software
+            developer intern.  I reskinned, animated, and updated the mechanics of an Android game.  I also
+            used Django to model and deploy a database for data-aggregation on Flint's customers.
+          </p>
+            <p>
+              Last summer (Summer 2016) I worked at <em>MeridianLink</em>, a finance software company, as a
+              software engineering intern.  I created a web app that can generate multi-paged web surveys and
+              record survey answers in a SQL database.  Exceeding the company's expectations, I added extra
+              things such as filtering intelligently and material design to the UX/UI.
+            </p>
+
+
+          <h3>leadership</h3>
+          <p>
+            Right now I am an Explore ICS mentor with my university's Women in Information and Science (WICS)
+            organization and a mentor to a handleful of other underclassmen.  I also am a student representative of
+            MeridianLink!
+          </p>
+          <p>
+            Most recently, I worked with <em>HackUCI</em>, my university's hackathon organization, in Spring 2016.  I started out as a member in the marketing team, but
+            I also took on many other responsibilities, such as setting up communication channels in Google
+            Docs, instructing others on how to carry out event activities, and setting up a committee for
+            surveying school demographics.
+          </p>
+          <p>
+            During my sophomore and junior years I worked at <em>TEDxUCIrvine</em> as a marketing and design director.
+            I would say that during these years, I learned to overcome differing opinions and lead people effectively.
+            A lot of my designs made it onto brochures and posters that hundreds across our UCI campus saw.
+          </p>
+        </div>
+      </div>
+
+      <div class="row blocker">
+        <div class="col-md-12">
+          <h2 class="red">projects</h2>
+          <p>
+            Aside from the student organizations that I'm part of, I've worked on a couple of projects.
+          </p>
+        </div>
+      </div>
+      <div class="blocker">
+      </div>
+      <div class="row">
+        <div class="col-md-3"><img class="img-responsive img-circle" src="../lib/images/clubhouse.png" width="250px"> </div>
+        <div class="col-md-3"><img class="img-responsive img-circle" src="../lib/images/egg-logo.png" width="250px"></div>
+        <div class="col-md-3"><img class="img-responsive img-circle" src="../lib/images/connect-k.png" width="250px"></div>
+        <div class="col-md-3"><img class="img-responsive img-circle" src="../lib/images/othello.png" width="250px"></div>
+      </div>
+
+      <div class="row blocker">
+        <div class="col-md-7"><h2 class="yellow">other stuff</h3>
+        <p>
+          As I mentioned above, I have a lot of hobbies.  From time to time I draw or
+          <a href="https://soundcloud.com/katie-bui-1" target="/">compose music</a>, but it
+          mostly goes toward my projects or doodles that I don't invest a whole lot of time into.
+          <a href="drawings.html" target="/">Here</a> are a couple of visual pieces I enjoyed making.
+        </p>
+
+        </div>
+        <div class="col-md-5">
+          <p>
+                <a href="https://github.com/ti-lun" target="/"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a> Github<br/>
+                <a href="https://www.hackerrank.com/ti_lun" target="/"><img src="../lib/images/hackerrank-logo.png"></a> HackerRank <br/>
+                You can also contact me at kgbui@uci.edu
+          </p>
+        </div>
+    </div>
+
+  </body>
+</html>
