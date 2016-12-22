@@ -45,8 +45,39 @@
         event.preventDefault();
     });
 });
+
+// thanks to Beejamin on stackoverflow for this
+$( document ).ready( function() {
+            var $body = $('body'); //Cache this for performance
+
+            var setBodyScale = function() {
+                var scaleSource = $body.width(),
+                    scaleFactor = 0.35,
+                    maxScale = 200,
+                    minScale = 60; //Tweak these values to taste
+
+                var fontSize = scaleSource * scaleFactor; //Multiply the width of the body by the scaling factor:
+
+                if (fontSize > maxScale) fontSize = maxScale;
+                if (fontSize < minScale) fontSize = minScale; //Enforce the minimum and maximums
+
+                $('body').css('font-size', fontSize + '%');
+            }
+
+            $(window).resize(function(){
+                setBodyScale();
+            });
+
+            //Fire it when the page first loads:
+            setBodyScale();
+        });
+
     </script>
+    <div id="lmao"></div>
     <div class="first-page">
+
+    </div>
+    <div class="bannershit">
       <img class="img-responsive fp" src="lib/images/Untitled-2.png" width="150px"><br />
       <h1>Hey, I'm Katie.</h1>
       <h2 class="subtitle">web dev · AI researcher · leader · artist</h2>
