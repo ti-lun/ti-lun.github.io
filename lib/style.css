@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+    font-size: 1em;
+    padding: 5%;
+    line-height: 2em;
+}
+
+.top-menu {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.current-page {
+    color: blueviolet;
+    text-decoration: underline;
+}
